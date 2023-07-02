@@ -1,0 +1,74 @@
+@import url('/assets/reset.css');
+body {
+  background-color: #5581b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.login h1 {
+  width: 300px;
+  font-size: 2em;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #fff;
+}
+.login .form-label {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.login .form-label label {
+  position: absolute;
+  bottom: 30px;
+  color: #fff;
+  font-size: 18px;
+  user-select: none;
+  display: flex;
+  pointer-events: none;
+}
+.login .form-label label span {
+  position: relative;
+  top: 0;
+  transition: all 0.3s;
+}
+.login .form-label input {
+  outline: none;
+  width: 300px;
+  height: 53px;
+  margin: 30px 0 20px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  font-size: 18px;
+  color: #fff;
+}
+.login .form-label input:focus + label span {
+  top: -30px;
+  color: lightblue;
+}
+.login button {
+  height: 52px;
+  background-color: #b6d7e4;
+  color: #000;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.login p {
+  margin-top: 30px;
+  color: #fff;
+}
+.login p a {
+  color: lightblue;
+  text-decoration: none;
+}
