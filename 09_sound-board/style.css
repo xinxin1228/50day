@@ -1,0 +1,28 @@
+@import url('/assets/reset.css');
+body {
+  height: 100vh;
+  background-color: #9867d8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#audios {
+  position: absolute;
+}
+#buttons {
+  display: flex;
+}
+#buttons button {
+  background-color: rebeccapurple;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+#buttons button:hover {
+  opacity: 0.9;
+}
