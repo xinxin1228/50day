@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  background-color: #333333;
+}
+.all {
+  position: relative;
+  transition: transform 0.5s linear;
+  transform-origin: top left;
+  background-color: #fff;
+  border: 1px solid transparent;
+}
+.all.show-nav {
+  transform: rotate(-20deg);
+}
+.all.show-nav .circle-container {
+  transform: rotate(-70deg);
+}
+.all .circle-container {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  left: -100px;
+  top: -100px;
+  background-color: #ee817d;
+  border-radius: 50%;
+  clear: both;
+  z-index: 100;
+  transition: transform 0.5s;
+}
+.all .circle-container button {
+  display: flex;
+  border: none;
+  background-color: #ee817d;
+  cursor: pointer;
+  position: absolute;
+  right: 46px;
+  bottom: 46px;
+}
+.all .circle-container button#close {
+  left: 46px;
+  bottom: 46px;
+}
+.all .circle-container button i {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.all .content {
+  width: 1000px;
+  margin: 100px auto;
+}
+.all .content img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.all .content p {
+  color: #333;
+  line-height: 1.5;
+  margin: 10px 0;
+}
+.all .content h3 {
+  margin: 18px 0;
+}
+.all.show-nav + nav {
+  left: 20px;
+}
+.all.show-nav + nav ul li:nth-of-type(2) {
+  margin-left: 20px;
+}
+.all.show-nav + nav ul li:nth-of-type(3) {
+  margin-left: 40px;
+}
+nav {
+  position: fixed;
+  left: -200px;
+  bottom: 60px;
+  transition: all 0.6s ease-in-out;
+  color: #fff;
+}
+nav ul {
+  list-style: none;
+  position: relative;
+}
+nav ul li {
+  margin: 40px 0;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+nav ul li:hover a {
+  color: #ff7979;
+  font-weight: bold;
+}
+nav ul li i {
+  margin-right: 6px;
+}
