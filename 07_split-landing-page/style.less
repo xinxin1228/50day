@@ -1,0 +1,84 @@
+@import url('/assets/reset.css');
+
+:root {
+  --left-hover: #5654e3;
+  --right-hover: #3b782c;
+  --left-bg-color: rgba(87, 84, 236, 0.7);
+  --right-bg-color: rgba(43, 43, 43, 0.8);
+  --speed: 1000ms;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+.public {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  transition: all var(--speed);
+  color: #fff;
+  position: relative;
+  .buy {
+    z-index: 100;
+    text-align: center;
+    h1 {
+      font-size: 4rem;
+      white-space: nowrap;
+    }
+    button {
+      width: 240px;
+      height: 76px;
+      border: none;
+      cursor: pointer;
+      border: 3px solid #fff;
+      background-color: transparent;
+      color: #fff;
+      font-size: 18px;
+      margin-top: 20px;
+    }
+  }
+}
+.left {
+  background: url(http://127.0.0.1:53218/07%20split-landing-page/ps.jpg)
+    no-repeat;
+  background-size: cover;
+  button:hover {
+    background-color: var(--left-hover);
+  }
+  &::before {
+    content: '';
+    background-color: var(--left-bg-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &.active {
+    flex: 2.5;
+  }
+}
+.right {
+  background: url(http://127.0.0.1:53218/07%20split-landing-page/xbox.jpg)
+    no-repeat;
+  background-size: cover;
+  button:hover {
+    background-color: var(--right-hover);
+  }
+  &::before {
+    content: '';
+    background-color: var(--right-bg-color);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &.active {
+    flex: 2.5;
+  }
+}
