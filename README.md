@@ -13,6 +13,6 @@
 - [x] Day09 [声卡](https://github.com/xinxin1228/50day/tree/main/09_sound-board)
 - [x] Day10 [获取笑话](https://github.com/xinxin1228/50day/tree/main/10_dad-jokes)
 - [x] Day11 [事件键码](https://github.com/xinxin1228/50day/tree/main/11_event-keycodes)
-- [ ] Day12
+- [x] Day12 [常见问题折叠](https://github.com/xinxin1228/50day/tree/main/12_faq-collapse)
 - [ ] Day13
 - [ ] Day14

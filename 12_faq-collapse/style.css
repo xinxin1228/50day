@@ -1,0 +1,74 @@
+@import url('/assets/reset.css');
+@import url('/assets/iconfont.css');
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+.container h1 {
+  margin: 50px 0 30px;
+  text-align: center;
+}
+.container .faq {
+  width: 600px;
+  border-radius: 5px;
+  margin: 20px 0;
+  border: 1px solid #000;
+  padding: 30px;
+  position: relative;
+  transition: all 0.5s;
+}
+.container .faq .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .faq .question i {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .faq .question .open {
+  font-weight: bold;
+}
+.container .faq .question .close {
+  display: none;
+  font-size: 30px;
+  color: #a0a4a8;
+}
+.container .faq .answer {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.container .faq .bg {
+  position: absolute;
+  top: 0;
+  display: none;
+}
+.container .faq .bg i {
+  font-size: 100px;
+  color: #dceaf7;
+  position: relative;
+}
+.container .faq.active {
+  background-color: #fff;
+}
+.container .faq.active .question .open {
+  display: none;
+}
+.container .faq.active .question .close {
+  display: flex;
+}
+.container .faq.active .answer {
+  margin-top: 30px;
+  height: auto;
+}
+.container .faq.active .bg {
+  display: block;
+}
