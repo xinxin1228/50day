@@ -14,5 +14,5 @@
 - [x] Day10 [获取笑话](https://github.com/xinxin1228/50day/tree/main/10_dad-jokes)
 - [x] Day11 [事件键码](https://github.com/xinxin1228/50day/tree/main/11_event-keycodes)
 - [x] Day12 [常见问题折叠](https://github.com/xinxin1228/50day/tree/main/12_faq-collapse)
-- [ ] Day13
+- [x] Day13 [随机选择选择器](https://github.com/xinxin1228/50day/tree/main/13_random-choice-picker)
 - [ ] Day14
