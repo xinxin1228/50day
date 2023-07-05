@@ -1,0 +1,100 @@
+@import url('/assets/reset.css');
+@import url('/assets/iconfont.css');
+
+:root {
+  --primary-color: #618ef2;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #edfafe 0%,
+    #edfafe 50%,
+    #618ef1 50%,
+    #618ef1 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  width: 350px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: all 0.8s;
+  position: relative;
+  span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    i {
+      font-size: 22px !important;
+      color: var(--primary-color);
+      cursor: pointer;
+    }
+    &.link {
+      display: flex;
+      a {
+        text-decoration: none;
+        margin: 0 10px;
+        color: #000;
+        position: relative;
+        opacity: 1;
+        transition: all 0.8s linear;
+        &:hover {
+          color: var(--primary-color);
+        }
+      }
+    }
+    &.icon {
+      width: 30px;
+      height: 30px;
+      background-color: #fff;
+      position: absolute;
+      right: 18px;
+      i {
+        position: relative;
+        transform-origin: center center;
+        position: absolute;
+        top: 10%;
+        transition: transform 0.8s linear;
+        font-size: 18px;
+        font-weight: bold;
+        &:nth-of-type(1) {
+          transform: rotate(45deg);
+        }
+        &:nth-of-type(2) {
+          transform: rotate(-45deg);
+        }
+      }
+    }
+  }
+  &.hide {
+    width: 80px;
+    .link {
+      a {
+        opacity: 0;
+        transform: rotateY(360deg);
+      }
+    }
+    .icon {
+      right: 22px;
+      i {
+        &:nth-of-type(1) {
+          transform: rotate(-720deg) translateY(4px);
+        }
+        &:nth-of-type(2) {
+          transform: rotate(720deg) translateY(-4px);
+        }
+      }
+    }
+  }
+}
