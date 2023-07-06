@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4145137 */
-  src: url('//at.alicdn.com/t/c/font_4145137_sgt8gg0eds.woff2?t=1688561461184') format('woff2'),
-       url('//at.alicdn.com/t/c/font_4145137_sgt8gg0eds.woff?t=1688561461184') format('woff'),
-       url('//at.alicdn.com/t/c/font_4145137_sgt8gg0eds.ttf?t=1688561461184') format('truetype');
+  src: url('//at.alicdn.com/t/c/font_4145137_zm2yylotezg.woff2?t=1688565142903') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4145137_zm2yylotezg.woff?t=1688565142903') format('woff'),
+       url('//at.alicdn.com/t/c/font_4145137_zm2yylotezg.ttf?t=1688565142903') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,18 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-tuite:before {
+  content: "\e652";
+}
+
+.icon-facebook:before {
+  content: "\eb8d";
+}
+
+.icon-Youtube-fill:before {
+  content: "\ead1";
 }
 
 .icon-jianhao:before {
