@@ -1,0 +1,104 @@
+@import url('/assets/reset.css');
+:root {
+  --primary-color: #264ebf;
+  --active-color: #7bb1f2;
+}
+body {
+  height: 100vh;
+  background-color: #5092de;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  width: 50%;
+  color: #fff;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.container div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container h1 {
+  font-size: 32px;
+}
+.container p {
+  margin: 5px 0;
+}
+.container p.check {
+  margin: 30px 0 10px;
+}
+.container .cup {
+  width: 142px;
+  height: 322px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .cup .info {
+  width: 100%;
+  height: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3 ease;
+}
+.container .cup .info h2 {
+  height: 20px;
+}
+.container .cup .info p {
+  font-size: 12px;
+}
+.container .cup .drink {
+  width: 100%;
+  height: 0;
+  background-color: var(--active-color);
+  transition: height 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+  text-align: center;
+}
+.container .cup .drink .tips {
+  display: none;
+}
+.container .waters {
+  width: 280px;
+  max-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  overflow: auto;
+  margin: 20px 0;
+}
+.container .waters .water {
+  width: 50px;
+  height: 95px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.container .waters .water.active {
+  background-color: var(--active-color);
+  color: #fff;
+}
+.container .cup-style {
+  border: 3px solid var(--primary-color);
+  border-bottom-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+  background-color: #fff;
+  color: var(--primary-color);
+  overflow: hidden;
+}

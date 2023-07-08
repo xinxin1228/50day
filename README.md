@@ -17,3 +17,4 @@
 - [x] Day13 [随机选择选择器](https://github.com/xinxin1228/50day/tree/main/13_random-choice-picker)
 - [x] Day14 [动画导航](https://github.com/xinxin1228/50day/tree/main/14_animated-navigation)
 - [x] Day15 [递增计数器](https://github.com/xinxin1228/50day/tree/main/15_incrementing-counter)
+- [x] Day16 [喝水](https://github.com/xinxin1228/50day/tree/main/16_drink-water)
