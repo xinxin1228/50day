@@ -18,3 +18,4 @@
 - [x] Day14 [动画导航](https://github.com/xinxin1228/50day/tree/main/14_animated-navigation)
 - [x] Day15 [递增计数器](https://github.com/xinxin1228/50day/tree/main/15_incrementing-counter)
 - [x] Day16 [喝水](https://github.com/xinxin1228/50day/tree/main/16_drink-water)
+- [x] Day17 [电影应用](https://github.com/xinxin1228/50day/tree/main/17_movie-app)
