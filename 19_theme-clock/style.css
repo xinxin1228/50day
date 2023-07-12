@@ -1,0 +1,88 @@
+@import url('/assets/reset.css');
+:root {
+  --primary-color: #000;
+  --background-color: #fff;
+  --pointer-s-color: #d65745;
+}
+html.dark {
+  --primary-color: #fff;
+  --background-color: #000;
+  --pointer-s-color: #d65745;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.7s;
+  background-color: var(--background-color);
+}
+.switch {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+.clock {
+  width: 200px;
+  height: 200px;
+  margin: 120px 0 20px;
+  position: relative;
+  flex-shrink: 0;
+}
+.clock .pointer {
+  position: absolute;
+  width: 3px;
+  background-color: var(--primary-color);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: center 0;
+  transform: rotate(180deg);
+  transition: transform 0.4s;
+}
+.clock .h {
+  height: 60px;
+}
+.clock .m {
+  height: 90px;
+}
+.clock .s {
+  height: 100px;
+  background-color: var(--pointer-s-color);
+}
+.clock .center {
+  width: 10px;
+  height: 10px;
+  border: 3px solid var(--pointer-s-color);
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  transform: translate(-50%, -50%);
+}
+.time {
+  font-size: 60px;
+  text-align: center;
+  color: var(--primary-color);
+}
+.date {
+  color: #aaa;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  display: flex;
+}
+.date .day {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  margin-left: 10px;
+}
