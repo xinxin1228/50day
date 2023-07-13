@@ -1,0 +1,40 @@
+@import url('/assets/reset.css');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #5480b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drag-list {
+  display: flex;
+  .drag {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border: solid 3px black;
+    background: white;
+    flex-shrink: 0;
+    &.hovered {
+      border: 3px dashed #fff;
+      background-color: #333;
+    }
+    &.leaved {
+      border: 3px dashed #fff;
+      background-color: #666;
+    }
+    .img {
+      width: 145px;
+      height: 145px;
+      cursor: pointer;
+      background: url('../assets/img/1.jpeg');
+      background-size: cover;
+      &.hold {
+        border: solid 5px #ccc;
+      }
+    }
+  }
+}
