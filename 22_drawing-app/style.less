@@ -1,0 +1,52 @@
+@import url('/assets/reset.css');
+
+:root {
+  --primary-color: steelblue;
+}
+
+body {
+  height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drawing-board {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  overflow: hidden;
+  #canvas {
+    border: 2px solid var(--primary-color);
+  }
+  .utools {
+    width: 800px;
+    height: 90px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    button {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      background-color: #fff;
+      margin: 4px;
+      padding: 4px;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      cursor: pointer;
+      input {
+        width: 40px;
+        height: 40px;
+        border: none;
+      }
+    }
+    .utool-left {
+      display: flex;
+    }
+  }
+}

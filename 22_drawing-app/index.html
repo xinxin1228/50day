@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>绘图应用程序</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="drawing-board">
+      <canvas id="canvas" width="800" height="700"></canvas>
+      <div class="utools">
+        <div class="utool-left">
+          <button id="inc">-</button>
+          <button id="num">10</button>
+          <button id="add">+</button>
+          <button>
+            <input type="color" id="color" />
+          </button>
+        </div>
+        <div class="utool-right">
+          <button id="clear">x</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
