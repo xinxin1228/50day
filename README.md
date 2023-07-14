@@ -24,3 +24,4 @@
 - [x] Day20 [按钮涟漪效果](https://github.com/xinxin1228/50day/tree/main/20_button-ripple-effect)
 - [x] Day21 [拖放](https://github.com/xinxin1228/50day/tree/main/21_drag-n-drop)
 - [x] Day22 [绘图应用程序](https://github.com/xinxin1228/50day/tree/main/22_drawing-app)
+- [x] Day23 [动力装载机](https://github.com/xinxin1228/50day/tree/main/23_kinetic-loader)
