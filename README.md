@@ -26,3 +26,4 @@
 - [x] Day22 [绘图应用程序](https://github.com/xinxin1228/50day/tree/main/22_drawing-app)
 - [x] Day23 [动力装载机](https://github.com/xinxin1228/50day/tree/main/23_kinetic-loader)
 - [x] Day24 [骨架屏](https://github.com/xinxin1228/50day/tree/main/24_content-placeholder)
+- [x] Day24 [粘带导航栏](https://github.com/xinxin1228/50day/tree/main/25_sticky-navigation)

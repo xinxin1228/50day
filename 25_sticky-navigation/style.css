@@ -1,0 +1,87 @@
+@import url('/assets/reset.css');
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  background-color: #222222;
+  transition: all 0.3s ease-in-out;
+  z-index: 100;
+}
+header.sticky {
+  background-color: #fff;
+  height: 50px;
+}
+header.sticky .center a {
+  color: #000;
+}
+header .center {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+header .center a {
+  color: #fff;
+  text-decoration: none;
+}
+header .center a:hover {
+  color: #c0392b;
+}
+header .center .logo {
+  font-size: 24px;
+  padding: 7px 15px;
+}
+header .center nav a {
+  padding: 7px 15px;
+}
+header .center nav a.active {
+  color: #c0392b;
+}
+.banner {
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  background-color: #1c1c1c;
+  background: url(https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner::before {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.banner h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+  z-index: 50;
+}
+.banner p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  z-index: 50;
+}
+.article-list {
+  width: 1200px;
+  margin: 30px auto;
+}
+.article-list .article h3 {
+  font-size: 150%;
+  margin: 20px 0;
+}
+.article-list .article p {
+  color: #555;
+  line-height: 30px;
+  letter-spacing: 1.2px;
+}
