@@ -22,3 +22,21 @@ export function shakeFun(fun, time = 300, immed = true) {
     }
   }
 }
+
+/**
+ * 节流
+ * @param {Function} target 目标函数
+ * @param {Number} timer 节流时长
+ * @returns
+ */
+export function throttle(target, timer = 2000) {
+  let time = 0
+  return function (...rest) {
+    const now = Date.now()
+
+    if (now - time > timer) {
+      target.apply(this, rest)
+      time = now
+    }
+  }
+}
