@@ -28,3 +28,4 @@
 - [x] Day24 [骨架屏](https://github.com/xinxin1228/50day/tree/main/24_content-placeholder)
 - [x] Day25 [粘带导航栏](https://github.com/xinxin1228/50day/tree/main/25_sticky-navigation)
 - [x] Day26 [双垂直滑块](https://github.com/xinxin1228/50day/tree/main/26_double-vertical-slider)
+- [x] Day27 [通知](https://github.com/xinxin1228/50day/tree/main/27_toast-notification)

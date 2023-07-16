@@ -1,0 +1,68 @@
+@import url('/assets/reset.css');
+body {
+  height: 100vh;
+  background-color: #5f3694;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  background-color: #fff;
+  padding: 18px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: #5f3694;
+}
+.notices {
+  position: fixed;
+  right: 0;
+  bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.notices .notice {
+  padding: 15px 22px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 6px;
+  transform: translateX(100%);
+}
+.notices .notice.animate-join {
+  animation: join 0.5s ease-in-out;
+}
+.notices .notice.animate-end {
+  transform: translateX(0);
+}
+.notices .notice.animate-out {
+  animation: out 0.5s ease-in-out;
+}
+.notices .notice.info {
+  color: #5f3694;
+}
+.notices .notice.success {
+  color: green;
+}
+.notices .notice.error {
+  color: red;
+}
+.notices .notice.warn {
+  color: #efb041;
+}
+@keyframes join {
+  form {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes out {
+  form {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
