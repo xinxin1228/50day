@@ -1,0 +1,52 @@
+@import url('../assets/reset.css');
+@import url('../assets/iconfont.css');
+
+h2 {
+  text-align: center;
+  i {
+    font-size: 18px !important;
+  }
+}
+h3 {
+  text-align: center;
+  margin: 10px 0;
+}
+h4 {
+  text-align: center;
+}
+.loveMe {
+  height: 440px;
+  width: 300px;
+  background: url(https://images.unsplash.com/photo-1504215680853-026ed2a45def?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80)
+    no-repeat center center/cover;
+  margin: auto;
+  cursor: pointer;
+  max-width: 100%;
+  position: relative;
+  margin-top: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  overflow: hidden;
+
+  .love {
+    position: absolute;
+    animation: love 1s infinite ease-out;
+    i {
+      font-size: 30px;
+    }
+  }
+}
+
+i {
+  color: red;
+}
+
+@keyframes love {
+  form {
+    opacity: 1;
+    transform: scale(2);
+  }
+  to {
+    opacity: 0;
+    transform: scale(4);
+  }
+}
