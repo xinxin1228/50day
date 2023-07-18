@@ -1,0 +1,49 @@
+@import url('/assets/reset.css');
+
+body {
+  height: 100vh;
+  background-color: #dd9a7f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#text {
+  position: relative;
+  &::after {
+    position: absolute;
+    content: '';
+    width: 3px;
+    height: 36px;
+    background-color: #fff;
+    top: 50%;
+    transform: translateY(-50%);
+    animation: currsorBlinks 0.6s infinite linear;
+  }
+}
+
+.speed {
+  position: absolute;
+  padding: 10px 20px;
+  background-color: #c68a72;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+  input {
+    outline: none;
+    border: none;
+    background-color: #dd9a7f;
+    padding: 5px;
+    font-size: 16px;
+  }
+}
+
+@keyframes currsorBlinks {
+  form {
+    opacity: 1;
+  }
+  60%,
+  to {
+    opacity: 0;
+  }
+}
