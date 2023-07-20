@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>密码生成器</title>
+  </head>
+  <body>
+    <div class="generate-pass">
+      <h2>Password Generator</h2>
+      <div class="pasteboard">
+        <div id="pass"></div>
+        <div class="copy">
+          <i class="iconfont icon-fuzhi1"></i>
+        </div>
+      </div>
+      <div class="settings">
+        <div class="setting">
+          <span>Password Length</span>
+          <input
+            type="number"
+            min="4"
+            max="20"
+            step="1"
+            value="20"
+            id="number"
+          />
+        </div>
+        <div class="setting">
+          <span>Include uppercase letters</span>
+          <input type="checkbox" checked id="uppercase" />
+        </div>
+        <div class="setting">
+          <span>Include lowercase letters</span>
+          <input type="checkbox" checked id="lowercase" />
+        </div>
+        <div class="setting">
+          <span>Include numbers </span>
+          <input type="checkbox" checked id="numbers" />
+        </div>
+        <div class="setting">
+          <span>Include symbols</span>
+          <input type="checkbox" checked id="symbols" />
+        </div>
+      </div>
+      <button class="submit">Generate Password</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

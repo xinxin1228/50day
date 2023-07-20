@@ -1,0 +1,74 @@
+@import url('/assets/reset.css');
+@import url('/assets/iconfont.css');
+
+body {
+  height: 100vh;
+  background-color: #3b3b93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.generate-pass {
+  width: 350px;
+  background-color: #232358;
+  box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  color: #fff;
+  h2 {
+    margin: 10px 0 20px;
+    text-align: center;
+  }
+  .pasteboard {
+    width: 310px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    overflow: hidden;
+    #pass {
+      flex: 1;
+      flex-shrink: 0;
+      white-space: nowrap;
+      line-height: 50px;
+      overflow-x: auto;
+    }
+    .copy {
+      width: 40px;
+      height: 40px;
+      background-color: #3b3b93;
+      display: flex;
+      flex-shrink: 0;
+      justify-content: center;
+      align-items: center;
+      margin-left: 30px;
+      cursor: pointer;
+      i {
+        font-size: 24px;
+      }
+    }
+  }
+  .settings {
+    .setting {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 15px 0;
+    }
+  }
+  .submit {
+    width: 100%;
+    background-color: #3b3b98;
+    color: #fff;
+    font-size: 16px;
+    padding: 8px 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+}
