@@ -1,0 +1,83 @@
+@import url('/assets/reset.css');
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-weight: bold;
+  }
+  .item {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    input {
+      visibility: hidden;
+      position: absolute;
+      left: -100px;
+      &:checked {
+        + label {
+          background-color: #8548a8;
+          .switch {
+            animation: selected 0.3s linear forwards;
+          }
+        }
+      }
+    }
+    label {
+      width: 80px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: #d0d0d0;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      padding: 0 3px;
+      cursor: pointer;
+      .switch {
+        width: 34px;
+        height: 34px;
+        background-color: #fff;
+        border-radius: 50%;
+        animation: noSelected 0.3s linear forwards;
+      }
+    }
+  }
+}
+
+@keyframes selected {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+
+  50% {
+    transform: translateX(20px) scale(1.1);
+  }
+
+  100% {
+    transform: translateX(40px) scale(1);
+  }
+}
+@keyframes noSelected {
+  0% {
+    transform: translateX(40px) scale(1);
+  }
+
+  50% {
+    transform: translateX(20px) scale(1.1);
+  }
+
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}

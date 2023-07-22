@@ -33,3 +33,4 @@
 - [x] Day29 [双击生成小爱心](https://github.com/xinxin1228/50day/tree/main/29_double-click-heart)
 - [x] Day30 [自动图文集效果](https://github.com/xinxin1228/50day/tree/main/30_auto-text-effect)
 - [x] Day31 [密码生成器](https://github.com/xinxin1228/50day/tree/main/31_password-generator)
+- [x] Day32 [按钮切换](https://github.com/xinxin1228/50day/tree/main/32_good-cheap-fast)
