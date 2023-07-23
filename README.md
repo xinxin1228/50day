@@ -40,3 +40,4 @@
 - [x] Day36 [色调板](https://github.com/xinxin1228/50day/tree/main/36_hoverboard)】
 - [x] Day37 [获取卡片信息](https://github.com/xinxin1228/50day/tree/main/37_pokedex)
 - [x] Day38 [移动端选项卡导航](https://github.com/xinxin1228/50day/tree/main/38_mobile-tab-navigation)
+- [x] Day39 [密码强度背景](https://github.com/xinxin1228/50day/tree/main/39_password-strength-background)
