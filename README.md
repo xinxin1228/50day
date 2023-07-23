@@ -37,3 +37,4 @@
 - [x] Day33 [笔记本](https://github.com/xinxin1228/50day/tree/main/33_notes-app)
 - [x] Day34 [动画倒计时](https://github.com/xinxin1228/50day/tree/main/34_animated-countdown)
 - [x] Day35 [图像轮播](https://github.com/xinxin1228/50day/tree/main/35_image-carousel)
+- [x] Day36 [色调板](https://github.com/xinxin1228/50day/tree/main/36_hoverboard)

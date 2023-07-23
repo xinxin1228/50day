@@ -1,0 +1,23 @@
+@import url('/assets/reset.css');
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+}
+.banner {
+  max-width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.banner .square {
+  width: 16px;
+  height: 16px;
+  margin: 2px;
+  transition: 2s ease;
+  background-color: #1d1d1d;
+}
+.banner .square:hover {
+  transition-duration: 0s;
+}
