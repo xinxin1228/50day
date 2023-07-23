@@ -38,3 +38,5 @@
 - [x] Day34 [动画倒计时](https://github.com/xinxin1228/50day/tree/main/34_animated-countdown)
 - [x] Day35 [图像轮播](https://github.com/xinxin1228/50day/tree/main/35_image-carousel)
 - [x] Day36 [色调板](https://github.com/xinxin1228/50day/tree/main/36_hoverboard)
+- [x] Day37 [色调板](https://github.com/xinxin1228/50day/tree/main/36_hoverboard)
+- [x] Day38 [获取卡片信息](https://github.com/xinxin1228/50day/tree/main/37_pokedex)
