@@ -36,3 +36,4 @@
 - [x] Day32 [按钮切换](https://github.com/xinxin1228/50day/tree/main/32_good-cheap-fast)
 - [x] Day33 [笔记本](https://github.com/xinxin1228/50day/tree/main/33_notes-app)
 - [x] Day34 [动画倒计时](https://github.com/xinxin1228/50day/tree/main/34_animated-countdown)
+- [x] Day35 [图像轮播](https://github.com/xinxin1228/50day/tree/main/35_image-carousel)
