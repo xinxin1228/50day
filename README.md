@@ -42,3 +42,4 @@
 - [x] Day38 [移动端选项卡导航](https://github.com/xinxin1228/50day/tree/main/38_mobile-tab-navigation)
 - [x] Day39 [密码强度背景](https://github.com/xinxin1228/50day/tree/main/39_password-strength-background)
 - [x] Day40 [3D 背景盒](https://github.com/xinxin1228/50day/tree/main/40_3d-boxes-background)
+- [x] Day41 [验证账户用户界面](https://github.com/xinxin1228/50day/tree/main/41_verify-account-ui)

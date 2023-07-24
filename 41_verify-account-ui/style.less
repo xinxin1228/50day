@@ -1,0 +1,61 @@
+@import url('/assets/reset.css');
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color: #fff;
+  border: 3px #000 solid;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 1000px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  h2 {
+    margin: 20px 0;
+  }
+  p {
+    margin: 16px 0;
+  }
+  .code {
+    margin: 40px 0;
+    input {
+      width: 88px;
+      height: 120px;
+      margin: 6px;
+      padding: 1px 2px;
+      border-radius: 6px;
+      text-align: center;
+      line-height: 120px;
+      font-size: 80px;
+      color: transparent;
+      text-shadow: 0 0 0 #000;
+      border: 1px solid #eee;
+      &:valid {
+        border: 1px solid #3498db;
+        box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.25);
+      }
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+  }
+  .tips {
+    width: 400px;
+    height: 60px;
+    color: #777777;
+    padding: 10px;
+    font-size: 14px;
+    background-color: #eaeaea;
+    border-radius: 6px;
+  }
+}
