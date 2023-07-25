@@ -1,0 +1,71 @@
+@import url('/assets/reset.css');
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+.container header {
+  padding: 30px 20px;
+  background-color: #4356d3;
+}
+.container header h4 {
+  color: #fff;
+}
+.container header p {
+  margin: 5px 0 20px;
+}
+.container header input {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 15px;
+  width: 100%;
+  outline: none;
+}
+.container ul {
+  background-color: #fff;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.container ul h3 {
+  padding: 20px;
+  margin: 20px;
+}
+.container ul li {
+  padding: 20px;
+  display: flex;
+}
+.container ul li:not(:last-of-type) {
+  border-bottom: 1px solid #eee;
+}
+.container ul li.hide {
+  display: none;
+}
+.container ul li .avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.container ul li .avatar img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.container ul li .user p {
+  margin: 12px 0;
+  font-size: 12px;
+}
