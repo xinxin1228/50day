@@ -1,0 +1,47 @@
+@import url('/assets/reset.css');
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5deeb;
+}
+h2 {
+  position: absolute;
+  top: 10px;
+}
+.range {
+  width: 300px;
+  height: 46px;
+  display: flex;
+  position: relative;
+}
+.range input[type='range'] {
+  width: 100%;
+  background-color: #800080;
+  -webkit-appearance: none;
+  border-radius: 8px;
+  margin: 18px 0;
+  outline: none;
+  cursor: pointer;
+}
+.range input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 24px;
+  width: 24px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid purple;
+  cursor: pointer;
+}
+.range label {
+  width: 80px;
+  position: absolute;
+  padding: 5px 0;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  text-align: center;
+  top: -30px;
+  transform: translateX(-50%);
+}

@@ -37,7 +37,7 @@
 - [x] Day33 [笔记本](https://github.com/xinxin1228/50day/tree/main/33_notes-app)
 - [x] Day34 [动画倒计时](https://github.com/xinxin1228/50day/tree/main/34_animated-countdown)
 - [x] Day35 [图像轮播](https://github.com/xinxin1228/50day/tree/main/35_image-carousel)
-- [x] Day36 [色调板](https://github.com/xinxin1228/50day/tree/main/36_hoverboard)】
+- [x] Day36 [色调板](https://github.com/xinxin1228/50day/tree/main/36_hoverboard)
 - [x] Day37 [获取卡片信息](https://github.com/xinxin1228/50day/tree/main/37_pokedex)
 - [x] Day38 [移动端选项卡导航](https://github.com/xinxin1228/50day/tree/main/38_mobile-tab-navigation)
 - [x] Day39 [密码强度背景](https://github.com/xinxin1228/50day/tree/main/39_password-strength-background)
@@ -45,3 +45,4 @@
 - [x] Day41 [验证账户用户界面](https://github.com/xinxin1228/50day/tree/main/41_verify-account-ui)
 - [x] Day42 [实时用户筛选器](https://github.com/xinxin1228/50day/tree/main/42_live-user-filter)
 - [x] Day43 [反馈 UI 设计](https://github.com/xinxin1228/50day/tree/main/43_feedback-ui-design)
+- [x] Day44 [自定义范围滑块](https://github.com/xinxin1228/50day/tree/main/44_custom-range-slider)
