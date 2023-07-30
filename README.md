@@ -48,3 +48,4 @@
 - [x] Day44 [自定义范围滑块](https://github.com/xinxin1228/50day/tree/main/44_custom-range-slider)
 - [x] Day45 [移动的导航](https://github.com/xinxin1228/50day/tree/main/45_netflix-mobile-navigation)
 - [x] Day46 [测试题](https://github.com/xinxin1228/50day/tree/main/46_quiz-app)
+- [x] Day47 [推荐 Box Switcher](https://github.com/xinxin1228/50day/tree/main/47_testimonial-box-switcher)
