@@ -50,3 +50,4 @@
 - [x] Day46 [测试题](https://github.com/xinxin1228/50day/tree/main/46_quiz-app)
 - [x] Day47 [推荐 Box Switcher](https://github.com/xinxin1228/50day/tree/main/47_testimonial-box-switcher)
 - [x] Day48 [随机图像馈送](https://github.com/xinxin1228/50day/tree/main/48_random-image-generator)
+- [x] Day49 [代办事项列表](https://github.com/xinxin1228/50day/tree/main/49_todo-list)
